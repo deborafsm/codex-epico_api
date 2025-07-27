@@ -4,7 +4,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1.2-green?logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
 [![Angular](https://img.shields.io/badge/Angular-15-red?logo=angular&logoColor=white)](https://angular.io/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 > Um bestiário digital inspirado em D&D e Terra Média, para você explorar criaturas mágicas, seus poderes e histórias, tudo com uma interface temática medieval.
 
