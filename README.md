@@ -1,5 +1,11 @@
 # Codex das Criaturas Épicas 🐉✨
 
+[![Java](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)](https://www.java.com/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1.2-green?logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Angular](https://img.shields.io/badge/Angular-15-red?logo=angular&logoColor=white)](https://angular.io/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 > Um bestiário digital inspirado em D&D e Terra Média, para você explorar criaturas mágicas, seus poderes e histórias, tudo com uma interface temática medieval.
 
 ---
@@ -27,8 +33,8 @@ Você poderá navegar pelos cards das criaturas, filtrá-las por tipo, visualiza
 | Camada         | Tecnologia                    |
 | -------------- | ---------------------------- |
 | Backend        | Java 17 + Spring Boot        |
-| Persistência   | MySQL                       |
-| Frontend       | Angular                      |
+| Persistência   | MySQL 8.0                    |
+| Frontend       | Angular 15                   |
 | Build          | Maven (backend)              |
 | Estilo Visual  | CSS customizado com tema medieval |
 
@@ -51,11 +57,3 @@ Você poderá navegar pelos cards das criaturas, filtrá-las por tipo, visualiza
 3. Rode o backend:  
    ```bash
    ./mvnw spring-boot:run
-
-### Frontend
-
-> npm install
-
-### Rodar front end
-> ng serve
-
