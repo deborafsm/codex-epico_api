@@ -1,4 +1,4 @@
-package com.deborafreire.codexepico.Entity;
+package com.deborafreire.codexepico.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
