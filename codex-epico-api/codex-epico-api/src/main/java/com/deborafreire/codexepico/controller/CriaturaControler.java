@@ -10,5 +10,8 @@ public class CriaturaControler {
     public String status() {
         return "Esta ok";
     }
-
+  @GetMapping
+    public List<Criatura> listarTodas() {
+        return criaturaRepository.findAll();
+    }
 }
