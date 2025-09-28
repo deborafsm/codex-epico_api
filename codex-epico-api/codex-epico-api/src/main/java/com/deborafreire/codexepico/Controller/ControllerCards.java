@@ -13,15 +13,18 @@ public class ControllerCards {
     @RestController
     @RequestMapping("/cards")
     public class CardController {
-        // Aqui você pode adicionar métodos para lidar com requisições relacionadas às cartas
+
         private final CartaRepository cartaRepository;
+
         public CardController(CartaRepository cartaRepository) {
             this.cartaRepository = cartaRepository;
         }
-    @GetMapping
-    public List<EntityCards> getAllCards() {
-        return cartaRepository.findAll();
+
+        @GetMapping
+        public List<EntityCards> getAllCards() {
+            return cartaRepository.findAll();
+
+        }
     }
-    
 
 }
